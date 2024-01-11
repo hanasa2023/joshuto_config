@@ -67,7 +67,7 @@ keymap = [
   { keys = ["]"], commands = ["parent_cursor_move_down"] },
 
   { keys = ["c", "d"], commands = [":cd "] },
-  { keys = ["d", "d"], commands = ["cut_files"] },
+  { keys = ["x", "x"], commands = ["cut_files"] },
   { keys = ["y", "y"], commands = ["copy_files"] },
   { keys = ["y", "n"], commands = ["copy_filename"] },
   { keys = ["y", "."], commands = ["copy_filename_without_extension"] },
